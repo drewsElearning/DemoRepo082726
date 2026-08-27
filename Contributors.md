@@ -28,7 +28,8 @@ Add your information as a new row at the bottom of the table.
 | Name | GitHub Username | Role | Favorite GitHub Feature |
 |---|---|---|---|
 | Drew Ramos | @drewselearning | Instructor | GitHub Actions |
-| Your Name | @your-github-username | Learner | Your favorite feature |
+| Test Learner | @Test Learner | Learner | Your favorite feature |
+| Test Learner 2 | @Test Learner 2 | Learner | Your favorite feature |
 
 ---
 
