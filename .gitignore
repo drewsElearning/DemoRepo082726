@@ -352,7 +352,42 @@ paket-files/
 
 # Python Tools for Visual Studio (PTVS)
 **/__pycache__/
+*.py[cod]
+*$py.class
 *.pyc
+*.pyo
+*.pyd
+*.so
+
+# Python packaging and test artifacts
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+.installed.cfg
+
+# Python tooling caches and virtual environments
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.venv/
+venv/
+env/
+ENV/
 
 # Cake - Uncomment if you are using it
 #tools/**
