@@ -32,6 +32,7 @@ Add your information as a new row at the bottom of the table.
 | Test Learner 2 | @Test Learner 2 | Learner | Your favorite feature |
 | Test Learner 3 | @Test Learner 2 | Learner | Your favorite feature |
 
+| Alex Brookshire | @AlexCodeReview12124644 | Learner | Your favorite feature |
 ---
 
 ## Contributor Entry Template
