@@ -30,6 +30,7 @@ Add your information as a new row at the bottom of the table.
 | Drew Ramos | @drewselearning | Instructor | GitHub Actions |
 | Test Learner | @Test Learner | Learner | Your favorite feature |
 | Test Learner 2 | @Test Learner 2 | Learner | Your favorite feature |
+| Test Learner 3 | @Test Learner 2 | Learner | Your favorite feature |
 
 ---
 
