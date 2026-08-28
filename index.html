@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An interactive study guide for the GitHub Foundations GH-900 certification.">
+  <title>GH-900 Field Guide | GitHub Foundations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="GH-900 Field Guide home"><span class="brand-mark">GH</span><span>FIELD GUIDE <b>/</b> 900</span></a>
+    <nav class="top-nav" aria-label="Primary navigation"><a href="#modules">Modules</a><a href="#study">Study map</a><button class="progress-button" id="progressButton" type="button">0% complete</button></nav>
+  </header>
+  <main id="top">
+    <section class="hero wrap"><div class="hero-copy reveal"><p class="eyebrow">GITHUB FOUNDATIONS / INTERACTIVE STUDY GUIDE</p><h1>Build the mental model.<br><em>Then ship it.</em></h1><p class="hero-intro">A hands-on path through the concepts, workflows, and vocabulary behind the GH-900 certification.</p><div class="hero-actions"><a class="button primary" href="#modules">Start learning <span>-></span></a><span class="hero-note">7 modules <span class="dot"></span> 21 objectives <span class="dot"></span> 14 questions</span></div></div><div class="hero-art reveal" aria-label="Illustration of a GitHub workflow map" role="img"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="node node-main">REPO<span>main</span></div><div class="node node-branch">BRANCH<span>feature/access</span></div><div class="node node-pr">PULL REQUEST<span>review -> merge</span></div><div class="path path-a"></div><div class="path path-b"></div><p class="art-caption">A repository is a<br>living system.</p></div></section>
+    <section class="module-index wrap" id="modules"><div class="section-heading"><div><p class="eyebrow">THE CURRICULUM</p><h2>Choose your next layer.</h2></div><p class="section-meta"><span id="completedCount">0</span> / 7 modules explored</p></div><div class="module-grid" id="moduleGrid"></div></section>
+    <section class="workspace wrap" id="study"><div class="workspace-heading"><p class="eyebrow">LAB NOTEBOOK <span class="slash">/</span> <span id="activeLabel">MODULE 01</span></p><h2 id="moduleTitle">The vocabulary of change.</h2><p id="moduleSummary"></p></div><div class="workspace-grid"><article class="lab-panel demo-panel"><div class="panel-top"><div><p class="panel-kicker">INTERACTIVE DEMO</p><h3 id="demoTitle">From local change to shared history</h3></div><span class="status-chip">LIVE IN BROWSER</span></div><div id="demoContent"></div></article><aside class="objectives-panel"><p class="panel-kicker">LEARNING OBJECTIVES</p><div id="objectives"></div><div class="tip"><strong>Exam lens</strong><p id="examLens"></p></div></aside></div><article class="quiz-panel"><div class="quiz-heading"><div><p class="panel-kicker">CHECKPOINT QUIZ</p><h3>Can you explain the why?</h3></div><div class="score" id="score">0 / 2</div></div><div id="quizContent"></div></article></section>
+  </main>
+  <footer class="footer wrap"><span>GH-900 FIELD GUIDE</span><span>Learn in public. Practice with intent.</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>

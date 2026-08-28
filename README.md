@@ -1,5 +1,17 @@
 # GitHub Foundations (GH-900) Demo Repository
 
+## Interactive Field Guide
+
+The repository includes a browser-based GH-900 study experience in `index.html`. It includes all seven learning modules, an interactive demo for each module, objective-based checkpoint quizzes, and locally persisted progress.
+
+Launch it from the repository root with:
+
+```bash
+python3 -m http.server 4173
+```
+
+Then visit <http://localhost:4173> in a browser. No build step or package installation is required.
+
 <div align="center">
 
 ![GitHub Foundations](https://img.shields.io/badge/Certification-GH--900-blue?style=hub
